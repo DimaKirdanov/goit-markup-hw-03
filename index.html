@@ -5,38 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>goit-markup-hw-02</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
+
   <body>
     <!-- это шапка -->
     <header class="header">
-      <nav class="header-nav">
-        <a href="./index.html" class="header-logo "> <span class="header-logo-sub">Web</span>Studio</a>
-        <ul class="header-nav-list list"> 
-          <li class="header-nav-item">
-            <a class="header-nav-link link current" href="./index.html">Студия</a>
+      <div class="conteiner">
+        <nav class="header-nav">
+          <a href="./index.html" class="header-logo">
+            <span class="header-logo-sub">Web</span>Studio</a
+          >
+          <ul class="header-nav-list list">
+            <li class="header-nav-item">
+              <a class="header-nav-link link current" href="./index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list">
+          <li class="mail-link">
+            <a class="link-header link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link link" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="header-nav-item">
-            <a class="header-nav-link link" href="">Контакты</a>
+          <li class="tell-link">
+            <a class="link-header link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li class="mail-link"><a class="link-header link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li class="tell-link"><a class="link-header link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
 
     <!-- уникальный контент -->
     <main>
-      
       <!-- HERO -->
       <section class="hero">
         <h1 class="hero-tittle">Эффективные решения для вашего бизнеса</h1>
@@ -165,19 +187,30 @@
 
     <!-- подвал -->
     <footer class="footer">
-      <a href="./index.html" class="footer-logo link"> <span class="footer-logo-sub">Web</span>Studio</a>
+      <a href="./index.html" class="footer-logo link">
+        <span class="footer-logo-sub">Web</span>Studio</a
+      >
       <address>
-        <ul class=" footer-nav-list list">
+        <ul class="footer-nav-list list">
           <li class="adress link">
-            <a class="footer-nav-link link"
+            <a
+              class="footer-nav-link link"
               href="https://goo.gl/maps/95omFK55Zk3BSgoX8"
               target="_blank"
               rel="noopener noreferrer"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li class="mail-link"><a class="link-footer link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="tell-link"><a class="link-footer link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="mail-link">
+            <a class="link-footer link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="tell-link">
+            <a class="link-footer link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
